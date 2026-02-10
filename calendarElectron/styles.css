@@ -17,7 +17,7 @@ body {
 }
 
 .app {
-    background-color: white; /* <--- Esto es lo que ahora sí verás */
+    background-color: pink; /* <--- Esto es lo que ahora sí verás */
     width: 100%;
     height: 100%;
     display: flex;
