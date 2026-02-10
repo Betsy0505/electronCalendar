@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent; /* Mantiene la transparencia de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.app {
+    background-color: white; /* <--- Esto es lo que ahora sí verás */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Esto separa el texto del botón para que no se encimen */
+    border-radius: 20px; /* Aquí verás el redondeo */
+    -webkit-app-region: drag; /* Para poder mover la ventana */
+}
+
+button, input, textarea, select {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+button {
+    -webkit-app-region: no-drag; /* Permite que el botón reciba clics */
+    padding: 10px 20px;
+    cursor: pointer;
+}
