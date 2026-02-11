@@ -23,7 +23,7 @@ Si quieres probar el código fuente:
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/Betsy0505/electronCalendar.git](https://github.com/Betsy0505/electronCalendar.git)
-
+   git clone https://github.com/Betsy0505/electronCalendar.git
+   
 ## Imagen muestra
 <img width="220" height="242" alt="image" src="https://github.com/user-attachments/assets/bf15f0af-e3be-43b5-9b40-558ebc822214" />
